@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contactformulier</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" />
+</head>
+
+<body class="body-container">
+    <header>
+        <div class="header-container border-color-containers">
+            <h1>Welkom op mijn eerste HTML pagina</h1>
+            <h2>Contactformulier</h2>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container border-color-containers">
+            <ul>
+                <li class="li-navbar">
+                    <a href="index.html">Index</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="about.html">Over mij</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="http://www.google.nl" _target="blank">Google</a>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="form-container border-color-containers">
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Naam:<input type="text" name="name" placeholder="Uw naam" /></label>
+                </p>
+                <p>
+                    <label>Email: <input type="email" name="email" placeholder="Uw e-mail" /></label>
+                </p>
+                <p>
+                    <label>Uw bericht: <textarea class="form-textveld" name="message"
+                            placeholder="Uw bericht"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Verstuur</button>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container border-color-containers">
+            <p>
+                Paul Bermon
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
